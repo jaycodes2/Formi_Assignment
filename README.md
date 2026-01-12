@@ -42,6 +42,14 @@ The parser maintains state to track:
 - **Single backtick (` ` `)**: Toggle inline code mode (only outside code blocks)
 - **Other backtick counts**: Treated as literal backtick characters
 
+## Demo
+
+Here's a visual example of the streaming markdown parser in action:
+
+![Streaming Markdown Parser Demo](https://raw.githubusercontent.com/jaycodes2/Formi_Assignment/fad7db29419c8df607479550c6661a7d80493604/Screenshot%202026-01-12%20211910.png)
+
+*Example output showing code blocks and inline code being parsed in real-time*
+
 ## Getting Started
 
 ### Prerequisites
@@ -147,3 +155,8 @@ Works in all modern browsers that support:
 - The parser is designed to be "optimistic" - it styles elements as soon as it detects the start of a code block or inline code
 - DOM elements are created incrementally to allow text selection during streaming
 - Random token lengths simulate real-world streaming behavior
+
+---
+
+**Project Status**: Active development  
+**Last Updated**: $(date +%Y-%m-%d)
