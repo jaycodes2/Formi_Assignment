@@ -161,5 +161,4 @@ Works in all modern browsers that support:
 
 ---
 
-**Project Status**: Active development  
-**Last Updated**: $(date +%Y-%m-%d)
+**Project Status**: Active development 
