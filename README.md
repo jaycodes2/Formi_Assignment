@@ -47,6 +47,9 @@ The parser maintains state to track:
 Here's a visual example of the streaming markdown parser in action:
 
 ![Streaming Markdown Parser Demo](https://raw.githubusercontent.com/jaycodes2/Formi_Assignment/fad7db29419c8df607479550c6661a7d80493604/Screenshot%202026-01-12%20211910.png)
+![Streaming Markdown Parser Demo](https://raw.githubusercontent.com/jaycodes2/Formi_Assignment/main/Screenshot%202026-01-12%20211920.png)
+![Streaming Markdown Parser Demo](https://raw.githubusercontent.com/jaycodes2/Formi_Assignment/main/Screenshot%202026-01-12%20211929.png)
+
 
 *Example output showing code blocks and inline code being parsed in real-time*
 
