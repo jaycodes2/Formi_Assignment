@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Markdown Parser</title>
+
+    <style>
+      /* Preserve newlines and spacing from streamed markdown */
+      #markdownContainer {
+        white-space: pre-wrap;
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+      }
+
+      /* Inline code styling */
+      .inline-code {
+        background: #f0f0f0;
+        font-family: 'Courier New', monospace;
+        padding: 2px 4px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+      }
+
+      /* Code block styling */
+      .code-block {
+        display: block;
+        background: #1e1e1e;
+        color: #d4d4d4;
+        white-space: pre-wrap;
+        padding: 12px;
+        margin: 12px 0;
+        font-family: 'Courier New', monospace;
+        border-radius: 6px;
+        border-left: 4px solid #007acc;
+      }
+      
+      /* Debug styling to see what's happening */
+      .debug {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="markdownContainer"></div>
+
+    <button id="button" onclick="runStream()">STREAM</button>
+    
+    <div style="margin-top: 20px; padding: 10px; background: #f5f5f5;">
+      <h3>Debug Info:</h3>
+      <div id="debugInfo"></div>
+    </div>
+
+    <script src="./MarkdownParser.js"></script>
+  </body>
+</html>
